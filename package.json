@@ -1,0 +1,9 @@
+{
+  "name": "react-flask-cookiecutter",
+  "version": "1.0.0",
+  "description": "It is the cookie cutter project for react and flask.",
+  "main": "index.js",
+  "repository": "git@github.com:hanlsin/react-flask-cookiecutter.git",
+  "author": "Yun Park <hanlsin@gmail.com>",
+  "license": "MIT"
+}
