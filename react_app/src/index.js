@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import { StoreProvider } from "easy-peasy";
+import store from "./store/easyPeasyState";
+
+import 'bootstrap/dist/css/bootstrap.css';
+
 ReactDOM.render(
-  <React.StrictMode>
+  <StoreProvider store={store}>
     <App />
-  </React.StrictMode>,
+  </StoreProvider>,
   document.getElementById('root')
 );
 
