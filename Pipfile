@@ -4,12 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+python-dotenv = "*"
 flask = "*"
+marshmallow = "*"
 
 [dev-packages]
 
 [scripts]
-
+runserver = "FLASK_APP=server.py flask run"
 
 [requires]
 python_version = "3.7"
