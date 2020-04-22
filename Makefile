@@ -70,22 +70,11 @@ lint: ## check style with flake8
 test: ## run tests quickly with the default Python
 	pytest -s
 
-test-all: ## run tests on every Python version with tox
-	tox
-
 coverage: ## check code coverage quickly with the default Python
-	pytest --cov-report=html --cov=aergo/ tests/
-
-release: dist ## package and upload a release
-	twine upload dist/*
-
-dist: clean ## builds source and wheel package
-	python setup.py sdist
-	python setup.py bdist_wheel
-	ls -l dist
+	pytest --cov-report=html --cov=app/ tests/
 
 mypy:
-	mypy -p aergo -p tests
+	mypy -p app -p tests
 
 build-client: ## build react_app
 	@( \
