@@ -9,6 +9,8 @@ flask = "*"
 marshmallow = "*"
 
 [dev-packages]
+behave = "*"
+flake8 = "*"
 
 [scripts]
 runserver = "FLASK_APP=server.py flask run"
