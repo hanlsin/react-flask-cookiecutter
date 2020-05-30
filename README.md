@@ -6,6 +6,19 @@ This is a cookie-cutter repository to initialise a web project with the React cl
 
 `React` is a JavaScript library for building user interfaces. Please use [this link](https://reactjs.org/) for more details.
 
+This react application is created by [CRA](https://github.com/facebook/create-react-app).
+
+### Additional Dependencies
+
+* [easy-peasy](https://easy-peasy.now.sh/)
+* [react-bootstrap](https://react-bootstrap.github.io/)
+* [styled-components](https://styled-components.com/)
+* [react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
+
+#### Dev
+
+* [Prettier](https://prettier.io/)
+
 ## Server based on [Flask](https://github.com/pallets/flask)
 
 * [Flask]() >= 1.1.2
